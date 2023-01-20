@@ -1,0 +1,17 @@
+@mixin dflex-jcsb {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@mixin dflex-aic {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+@mixin dflex-jcsa {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
