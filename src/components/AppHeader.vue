@@ -90,8 +90,8 @@ export default {
                     </ul>
                 </nav>
             </div>
-
         </div>
+
 
     </header>
 </template>
@@ -106,6 +106,12 @@ export default {
 header {
     height: 15vh;
     padding: 1rem;
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    background-color: white
 }
 
 .h-nav {

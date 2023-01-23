@@ -7,19 +7,20 @@ export default {
 
 <template>
     <div class="jumbo">
-        <img src="../assets/img/jumbotron.jpg" alt="">
+        <!-- <img src="../assets/img/jumbotron.jpg" alt=""> -->
     </div>
 </template>
 
 
-<style scoped>
+<style lang="scss" scoped>
 .jumbo {
+    background-color: rgb(221, 10, 10);
     width: 100%;
+    height: 35vh;
+    background-image: url("../assets/img/jumbotron.jpg");
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
 
-    img {
-        object-fit: cover;
-        width: 100%;
-
-    }
 }
 </style>

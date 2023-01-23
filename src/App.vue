@@ -2,15 +2,17 @@
 import "@fontsource/open-sans"
 import AppHeader from './components/AppHeader.vue';
 import AppMain from './components/AppMain.vue';
-import AppFooter from './components/AppFooter.vue'
+import AppFooter from './components/AppFooter.vue';
+import jumbo from './components/jumbo.vue';
 export default {
-  components: { AppHeader, AppMain, AppFooter },
+  components: { AppHeader, AppMain, AppFooter, jumbo },
 }
 
 </script>
 
 <template>
   <AppHeader />
+  <jumbo />
   <AppMain />
   <AppFooter />
 </template>

@@ -20,7 +20,7 @@ export default {
 
 main {
     background-color: black;
-    min-height: 150px;
+    height: 150px;
 
 
     h1 {
