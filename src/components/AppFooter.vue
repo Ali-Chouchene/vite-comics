@@ -1,6 +1,6 @@
 <script>
-import FooterNav from './FooterNav.vue';
-import FooterBottom from './FooterBottom.vue';
+import FooterNav from './subcompnets/FooterNav.vue';
+import FooterBottom from './subcompnets/FooterBottom.vue';
 export default {
     components: { FooterNav, FooterBottom },
 }

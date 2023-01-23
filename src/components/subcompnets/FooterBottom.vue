@@ -28,7 +28,7 @@ export default {
     },
     methods: {
         buildImgUrl(img) {
-            const url = new URL(`../assets/img/${img}`, import.meta.url);
+            const url = new URL(`../../assets/img/${img}`, import.meta.url);
             console.log(url.href)
             return url.href;
 
@@ -63,7 +63,7 @@ export default {
 </template>
 
 <style lang="scss" scoped>
-@use "../assets/scss/mixin" as *;
+@use "../../assets/scss/mixin" as *;
 
 * {
     font-family: "Open Sans", sans-serif;

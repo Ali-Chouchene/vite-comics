@@ -15,3 +15,9 @@
     justify-content: space-around;
     align-items: center;
 }
+
+@mixin df-jcc-wrap {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}

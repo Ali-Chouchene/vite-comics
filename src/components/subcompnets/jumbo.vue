@@ -14,7 +14,7 @@ export default {
 .jumbo {
     width: 100%;
     height: 35vh;
-    background-image: url("../assets/img/jumbotron.jpg");
+    background-image: url("../../assets/img/jumbotron.jpg");
     background-repeat: no-repeat;
     background-position: top;
     background-size: fill;

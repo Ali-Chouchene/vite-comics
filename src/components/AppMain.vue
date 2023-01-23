@@ -1,8 +1,9 @@
 <script>
-import ComicCard from './ComicCard.vue';
+import ComicCard from './subcompnets/ComicCard.vue';
+import AppButton from './subcompnets/AppButton.vue'
 export default {
     name: 'AppMain',
-    components: { ComicCard },
+    components: { ComicCard, AppButton },
     data() {
         return {
             comics: [
@@ -107,6 +108,7 @@ export default {
             <div class="comics">
                 <ComicCard v-for="comic in comics" :key="comic.thumb" :comic="comic"></ComicCard>
             </div>
+            <AppButton />
         </div>
     </main>
 </template>
@@ -137,9 +139,7 @@ main {
     }
 
     .comics {
-        display: flex;
-        justify-content: center;
-        flex-wrap: wrap;
+        @include df-jcc-wrap;
         padding-top: 3rem;
     }
 }

@@ -3,8 +3,9 @@ import "@fontsource/open-sans"
 import AppHeader from './components/AppHeader.vue';
 import AppMain from './components/AppMain.vue';
 import AppFooter from './components/AppFooter.vue';
-import jumbo from './components/jumbo.vue';
+import jumbo from './components/subcompnets/jumbo.vue';
 export default {
+  name: 'App',
   components: { AppHeader, AppMain, AppFooter, jumbo },
 }
 
