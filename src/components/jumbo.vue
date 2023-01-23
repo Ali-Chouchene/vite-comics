@@ -6,15 +6,12 @@ export default {
 
 
 <template>
-    <div class="jumbo">
-        <!-- <img src="../assets/img/jumbotron.jpg" alt=""> -->
-    </div>
+    <div class="jumbo"></div>
 </template>
 
 
 <style lang="scss" scoped>
 .jumbo {
-    background-color: rgb(221, 10, 10);
     width: 100%;
     height: 35vh;
     background-image: url("../assets/img/jumbotron.jpg");
