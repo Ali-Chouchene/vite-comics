@@ -74,6 +74,7 @@ export default {
     bottom: 0;
     right: 0;
     left: 0;
+    z-index: 2;
     background-color: rgb(48, 48, 48);
 }
 

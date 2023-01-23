@@ -1,5 +1,8 @@
 <script>
+import ComicCard from './ComicCard.vue';
 export default {
+    name: 'AppMain',
+    components: { ComicCard },
     data() {
         return {
             comics: [
@@ -99,10 +102,7 @@ export default {
     <main>
         <div class="container">
             <div class="comics">
-                <div v-for="comic in comics" :key="comic.thumb" class="comic">
-                    <img :src="comic.thumb" :alt="comic.series">
-                    <h5>{{ comic.series }}</h5>
-                </div>
+                <ComicCard v-for="comic in comics" :key="comic.thumb" :comic="comic"></ComicCard>
             </div>
         </div>
     </main>
@@ -126,26 +126,6 @@ main {
         justify-content: center;
         flex-wrap: wrap;
         padding-top: 2rem;
-
-        .comic {
-            width: 150px;
-            word-wrap: break-word;
-            margin-right: 2rem;
-
-
-            h5 {
-                color: white;
-                padding-bottom: 2rem;
-
-            }
-
-            img {
-
-                width: 150px;
-                height: 150px;
-                object-fit: fill;
-            }
-        }
     }
 }
 </style>
