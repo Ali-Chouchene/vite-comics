@@ -112,6 +112,10 @@ export default {
                 padding: 1rem;
                 font-size: 17px;
                 font-weight: 600;
+                width: 15%;
+                aspect-ratio: 3/2;
+                object-fit: contain;
+                mix-blend-mode: color-dodge;
                 margin: 0;
 
                 &:hover {
