@@ -18,9 +18,8 @@ export default {
 </template>
 <style lang="scss" scoped>
 .comic {
-    width: 150px;
+    width: calc(90% / 6);
     word-wrap: break-word;
-    margin-right: 2rem;
     cursor: pointer;
 
 
@@ -43,7 +42,7 @@ export default {
     img {
 
         width: 100%;
-        height: 150px;
+        height: 180px;
         object-fit: cover;
         object-position: top;
         position: relative;
@@ -60,6 +59,7 @@ export default {
         display: none;
         text-align: center;
         line-height: 30px;
+        cursor: pointer;
 
     }
 }

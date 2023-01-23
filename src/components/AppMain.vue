@@ -130,7 +130,6 @@ main {
         line-height: 50px;
         position: absolute;
         bottom: calc(100% - 25px);
-        left: 390px;
     }
 
     h1 {
@@ -141,6 +140,7 @@ main {
     .comics {
         @include df-jcc-wrap;
         padding-top: 3rem;
+        gap: 20px;
     }
 }
 </style>
