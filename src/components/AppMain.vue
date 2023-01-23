@@ -101,6 +101,9 @@ export default {
 <template>
     <main>
         <div class="container">
+            <div class="label">
+                <h3>CURRENT SERIES</h3>
+            </div>
             <div class="comics">
                 <ComicCard v-for="comic in comics" :key="comic.thumb" :comic="comic"></ComicCard>
             </div>
@@ -114,7 +117,19 @@ export default {
 main {
     background-color: rgb(44, 41, 41);
     min-height: 150px;
+    position: relative;
 
+    .label {
+        color: white;
+        background-color: dodgerblue;
+        height: 50px;
+        width: 200px;
+        text-align: center;
+        line-height: 50px;
+        position: absolute;
+        bottom: calc(100% - 25px);
+        left: 390px;
+    }
 
     h1 {
         color: white;
@@ -125,7 +140,7 @@ main {
         display: flex;
         justify-content: center;
         flex-wrap: wrap;
-        padding-top: 2rem;
+        padding-top: 3rem;
     }
 }
 </style>

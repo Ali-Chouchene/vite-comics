@@ -30,7 +30,8 @@ export default {
 
         width: 100%;
         height: 150px;
-        object-fit: fill;
+        object-fit: cover;
+        object-position: top;
     }
 }
 </style>
