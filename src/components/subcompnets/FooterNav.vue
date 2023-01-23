@@ -88,6 +88,9 @@ export default {
                 img {
                     height: 60px;
                     width: 50px;
+                    aspect-ratio: 3/2;
+                    object-fit: contain;
+                    margin: 0;
                 }
             }
         }
